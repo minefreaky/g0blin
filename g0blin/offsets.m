@@ -658,7 +658,7 @@ kern_return_t init_offsets()
     if(!strcmp(device, "iPad5,4") || !strcmp(device, "iPad5,3"))
     {
         // 10.3.3
-        if(!strcmp(osversion, "14G50"))
+        if(!strcmp(osversion, "14G5053A"))
         {
             OFFSET_ZONE_MAP                        = 0xfffffff007558478;
             OFFSET_KERNEL_MAP                      = 0xfffffff0075b4050;
